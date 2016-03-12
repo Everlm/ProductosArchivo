@@ -1,0 +1,16 @@
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.vbprojResolveAssemblyReference.cache
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.Resources.resources
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.vbproj.GenerateResource.Cache
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Controles.exe.config
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Controles.exe
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Controles.pdb
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Controles.xml
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\AccesoDatos.exe
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Entidades.exe
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\AccesoDatos.pdb
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\AccesoDatos.xml
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Entidades.pdb
+C:\Users\EverL\Documents\Productos\Controles\bin\Debug\Entidades.xml
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.exe
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.xml
+C:\Users\EverL\Documents\Productos\Controles\obj\Debug\Controles.pdb

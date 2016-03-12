@@ -1,0 +1,18 @@
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\bin\Debug\Productos.exe.config
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\bin\Debug\Productos.exe
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\bin\Debug\Productos.pdb
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\bin\Debug\Productos.xml
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\obj\Debug\Productos.Resources.resources
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\obj\Debug\Productos.vbproj.GenerateResource.Cache
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\obj\Debug\Productos.exe
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\obj\Debug\Productos.xml
+C:\Users\EverL\AppData\Local\Temporary Projects\Productos\obj\Debug\Productos.pdb
+C:\Users\EverL\Desktop\Productos\Productos\bin\Debug\Productos.exe.config
+C:\Users\EverL\Desktop\Productos\Productos\obj\Debug\Productos.exe
+C:\Users\EverL\Desktop\Productos\Productos\obj\Debug\Productos.xml
+C:\Users\EverL\Desktop\Productos\Productos\obj\Debug\Productos.pdb
+C:\Users\EverL\Desktop\Productos\Productos\bin\Debug\Productos.exe
+C:\Users\EverL\Desktop\Productos\Productos\bin\Debug\Productos.pdb
+C:\Users\EverL\Desktop\Productos\Productos\bin\Debug\Productos.xml
+C:\Users\EverL\Desktop\Productos\Productos\obj\Debug\Productos.Resources.resources
+C:\Users\EverL\Desktop\Productos\Productos\obj\Debug\Productos.vbproj.GenerateResource.Cache

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FEEFBED-8DCF-4409-B289-EDF2145AF6B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Productos.My.MyApplication</StartupObject>
+    <RootNamespace>Productos</RootNamespace>
+    <AssemblyName>Productos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Productos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Productos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consultas\ConsultaProductosOrdenadosPorNombre.Designer.vb">
+      <DependentUpon>ConsultaProductosOrdenadosPorNombre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ConsultaProductosOrdenadosPorNombre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorCodigoProducto.Designer.vb">
+      <DependentUpon>ProductosPorCodigoProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorCodigoProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorCodigoProveedor.Designer.vb">
+      <DependentUpon>ProductosPorCodigoProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorCodigoProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosVencidos.Designer.vb">
+      <DependentUpon>ProductosVencidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosVencidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorNombreProducto.Designer.vb">
+      <DependentUpon>ProductosPorNombreProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorNombreProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorValorCompra.Designer.vb">
+      <DependentUpon>ProductosPorValorCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorValorCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorRangoFechaVencimiento.Designer.vb">
+      <DependentUpon>ProductosPorRangoFechaVencimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosPorRangoFechaVencimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosNoVencidos.Designer.vb">
+      <DependentUpon>ProductosNoVencidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosNoVencidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProductosVencenMesEspefico.Designer.vb">
+      <DependentUpon>ProductosVencenMesEspefico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProductosVencenMesEspefico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProveedoresPorCodigo.Designer.vb">
+      <DependentUpon>ProveedoresPorCodigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProveedoresPorCodigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\ProveedoresPorNombre.Designer.vb">
+      <DependentUpon>ProveedoresPorNombre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\ProveedoresPorNombre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\TotalProductos.Designer.vb">
+      <DependentUpon>TotalProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\TotalProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\TotalProveedores.Designer.vb">
+      <DependentUpon>TotalProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\TotalProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formularios\Productos.Designer.vb">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Proveedor.Designer.vb">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ProductosRegistrados.Designer.vb">
+      <DependentUpon>ProductosRegistrados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ProductosRegistrados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TodasConsultas.Designer.vb">
+      <DependentUpon>TodasConsultas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\TodasConsultas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Presentacion.Designer.vb">
+      <DependentUpon>Presentacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Presentacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Consultas\ConsultaProductosOrdenadosPorNombre.resx">
+      <DependentUpon>ConsultaProductosOrdenadosPorNombre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosPorCodigoProducto.resx">
+      <DependentUpon>ProductosPorCodigoProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosPorCodigoProveedor.resx">
+      <DependentUpon>ProductosPorCodigoProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosPorNombreProducto.resx">
+      <DependentUpon>ProductosPorNombreProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosPorRangoFechaVencimiento.resx">
+      <DependentUpon>ProductosPorRangoFechaVencimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosPorValorCompra.resx">
+      <DependentUpon>ProductosPorValorCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosNoVencidos.resx">
+      <DependentUpon>ProductosNoVencidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosVencenMesEspefico.resx">
+      <DependentUpon>ProductosVencenMesEspefico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProductosVencidos.resx">
+      <DependentUpon>ProductosVencidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProveedoresPorCodigo.resx">
+      <DependentUpon>ProveedoresPorCodigo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\ProveedoresPorNombre.resx">
+      <DependentUpon>ProveedoresPorNombre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\TotalProductos.resx">
+      <DependentUpon>TotalProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\TotalProveedores.resx">
+      <DependentUpon>TotalProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Productos.resx">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Proveedor.resx">
+      <DependentUpon>Proveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ProductosRegistrados.resx">
+      <DependentUpon>ProductosRegistrados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TodasConsultas.resx">
+      <DependentUpon>TodasConsultas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Presentacion.resx">
+      <DependentUpon>Presentacion.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos\AccesoDatos.vbproj">
+      <Project>{a162702f-fa31-4d6d-b05b-aa67c988841e}</Project>
+      <Name>AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Controles\Controles.vbproj">
+      <Project>{0cc180f1-8125-4138-a72c-e7e028e41682}</Project>
+      <Name>Controles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{e0b50c9e-91c1-486c-95bf-ee797f99439e}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

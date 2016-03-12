@@ -1,0 +1,9 @@
+C:\Users\EverL\Documents\Productos\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\EverL\Documents\Productos\Entidades\bin\Debug\Entidades.exe
+C:\Users\EverL\Documents\Productos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\EverL\Documents\Productos\Entidades\bin\Debug\Entidades.xml
+C:\Users\EverL\Documents\Productos\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\EverL\Documents\Productos\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\EverL\Documents\Productos\Entidades\obj\Debug\Entidades.exe
+C:\Users\EverL\Documents\Productos\Entidades\obj\Debug\Entidades.xml
+C:\Users\EverL\Documents\Productos\Entidades\obj\Debug\Entidades.pdb
